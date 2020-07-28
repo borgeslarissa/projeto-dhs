@@ -1,0 +1,131 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500&display=swap');
+
+html * {
+    box-sizing: boarder-box;
+}
+h1{
+    font-family: 'Kreon', serif;
+    font-size: 64px;
+    border: outset;
+    padding: 20px 12px;
+    text-shadow: 3px 3px gray;
+    text-align: center;
+    background-color: white;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+.titulo{
+    font-family: 'Kreon', serif;
+    font-size: 34px;
+    border: outset;
+    padding: 20px 12px;
+    text-shadow: 1px 1px gray;
+    letter-spacing: 4px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 35px;
+}
+body{
+    font-family: 'Kreon', serif;
+    letter-spacing: 2px;
+}
+
+img{
+    max-width: 90%;
+}
+
+h1, .cartao, img, .botao, div, footer{
+    border-radius:8px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-gap: 10px;
+    align-items:start;
+    justify-items: center;
+}
+
+#maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items:start;
+    justify-items: center;
+}
+
+.centro {
+  grid-column: span 3;
+  grid-row: span 3;
+  align-items:start;
+  justify-items: center;
+  height: 100%;
+}
+
+.cartao {
+  background-color:white;
+  text-align: center;
+  padding: 6px 4px;
+  border: 2px solid black;
+  font-size: 15px;
+  font-family: 'Kreon', serif;
+}
+
+.cartaoa {
+  background-color:#f8f8f8;
+  text-align: left;
+  border: 2px none;
+  padding: 6px 4px;
+  font-size: 15px;
+  font-family: 'Kreon', serif;
+}
+
+.botao{
+    display: inline-block;
+    background-color:black;
+    color: white;
+    padding: 12px 36px;
+    letter-spacing: 6px;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-family: serif;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border: 2px solid white;
+    font-family: serif;
+    
+}
+footer{
+    background-color: lightgray;
+    height: 100px;
+    margin-top: 2px;
+    background-position: Center;
+    background-size: cover;
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: black;
+}
+.filtro{
+    height: 100%;
+    background-color: rgbd(0,0,0,9);
+     
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px gray;
+}

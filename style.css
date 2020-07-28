@@ -92,7 +92,7 @@ h1, .cartao, img, .botao, div, footer{
     display: inline-block;
     background-color:black;
     color: white;
-    padding: 12px 36px;
+    padding: 12px 30px;
     letter-spacing: 6px;
     text-decoration: none;
     transition: all 0.4s;

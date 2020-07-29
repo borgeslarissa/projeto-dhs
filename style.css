@@ -112,6 +112,7 @@ footer{
     height: 100px;
     margin-top: 2px;
     background-position: Center;
+ text-align: center;
     background-size: cover;
     font-family: serif;
     font-size: 30px;
